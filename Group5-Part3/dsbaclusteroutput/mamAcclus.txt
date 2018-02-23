@@ -1,0 +1,217 @@
+
+(age,age24 -> age24)^(birads,birads4 -> birads4)^(density,density3 -> density2)
+==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(birads,birads4 -> birads4)^(density,density3 -> density2)^
+(margin, -> margin1) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confide
+nce: 100.0%]
+(age,age24 -> age24)^(birads,birads4 -> birads4)^(density,density3 -> density2)^
+(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confide
+nce: 100.0%]
+(age,age24 -> age24)^(birads,birads4 -> birads4)^(density,density3 -> density2)^
+(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)
+1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)
+        1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(birads, -> birads4) ==> (sh
+ape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(margin, -> margin1) ==> (sh
+ape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(margin, -> margin1)^(birads
+, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100
+.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(severity, -> severity0) ==>
+ (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(severity, -> severity0)^(bi
+rads, -> birads4) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(density,density3 -> density2)^(severity, -> severity0)^(margin, -> margin1)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density2)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(density,density3 -> density2)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(density,density3 -> density2)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(margin,margin1 -> margin1)^(density,density3 -> density2)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence:
+100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(birads,birads4 -> birads4)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(birads,birads4 -> birads4)^(density,density3 -> density2)^(margin, -> margin1) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(density,density3 -> density2)^(birads, -> birads4) ==> (shape,shape1 -> shape2) 1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(density,density3 -> density2)^(margin, -> margin1) ==> (shape,shape1 -> shape2) 1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(density,density3 -> density2)^(margin, -> margin1)^(birads, -> birads4) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence:
+100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)      1 [Support: 2
+.0, Confidence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age24 -> age24)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density3 -> density2)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(density, -> density3) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(severity, -> severity0)^(density, -> density3) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence:
+100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(severity,severity0 -> severity0) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(severity,severity0 -> severity0)^(density, -> density3) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(severity,severity0 -> severity0)^(margin, -> margin3) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(birads,birads5 -> birads4)^(severity,severity0 -> severity0)^(margin, -> margin3)^(density, -> density3) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence:
+100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(margin, -> margin3) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(margin, -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence:
+100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(margin,margin? -> margin3) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(margin,margin? -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(severity,severity0 -> severity0)^(margin, -> margin3) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(birads,birads5 -> birads4)^(severity,severity0 -> severity0)^(margin,margin? -> margin3) ==> (shape,shape1 -> shape2)      1 [Support: 2
+.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin, -> margin3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin, -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin, -> margin3)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin,margin? -> margin3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin,margin? -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin,margin? -> margin3)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence:
+100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin,margin? -> margin3)^(severity,severity0 -> severity0) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(margin,margin? -> margin3)^(severity,severity0 -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(severity,severity0 -> severity0)^(margin, -> margin3) ==> (shape,shape1 -> shape2) 1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(density,density? -> density3)^(severity,severity0 -> severity0)^(margin, -> margin3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence:
+100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(birads, -> birads4)^(density, -> density3) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(severity, -> severity0)^(birads, -> birads4)^(density, -> density3) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age36 -> age36)^(margin,margin? -> margin3)^(severity, -> severity0)^(density, -> density3) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(birads,birads4 -> birads4)^(density,density2 -> density3) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(birads,birads4 -> birads4)^(density,density2 -> density3)^(margin, -> margin1) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(birads,birads5 -> birads4)^(margin,margin? -> margin1)^(density, -> density3) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(birads,birads5 -> birads4)^(margin,margin? -> margin1)^(density,density3 -> density3) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(density,density2 -> density3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(density,density2 -> density3)^(margin, -> margin1)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age42 -> age42)^(density,density2 -> density3)^(severity, -> severity1)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(birads,birads4 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(birads,birads4 -> birads4)^(density, -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence:
+100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density, -> density?) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density, -> density?)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density, -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density, -> density?)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density,density3 -> density?)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density,density3 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(density,density3 -> density?)^(severity, -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence:
+100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(birads,birads4 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(birads,birads4 -> birads4)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)      1 [Support: 2
+.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(density, -> density?) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(density, -> density?)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence:
+100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age45 -> age45)^(margin,margin2 -> margin1)^(severity,severity0 -> severity0)^(density,density3 -> density?)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads4)^(density, -> density?)^(margin, -> margin1) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads4)^(density, -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads4)^(density, -> density?)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads5)^(density, -> density?) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads5)^(density, -> density?)^(margin, -> margin?) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(birads,birads2 -> birads5)^(margin, -> margin?) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(density,density? -> density3)^(severity,severity1 -> severity1)^(margin,margin1 -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4)^(density, -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence:
+100.0%]
+(age,age59 -> age59)^(margin,margin1 -> margin?)^(birads,birads2 -> birads5) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(margin,margin1 -> margin?)^(birads,birads2 -> birads5)^(density, -> density?) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(birads,birads4 -> birads4)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)      1 [Support: 2
+.0, Confidence: 100.0%]
+(age,age59 -> age59)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density3 -> density?)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(age,age59 -> age59)^(severity,severity0 -> severity1)^(margin,margin1 -> margin1)^(density,density3 -> density3) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(severity,severity1 -> severity0)^(birads,birads2 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(age,age59 -> age59)^(severity,severity1 -> severity0)^(birads,birads2 -> birads4)^(density, -> density?)^(margin, -> margin1) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence:
+100.0%]
+(age,age59 -> age59)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4)^(density, -> density?) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Conf
+idence: 100.0%]
+(birads,birads2 -> birads3)^(density,density1 -> density?)^(margin, -> margin1) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(birads,birads2 -> birads3)^(density,density1 -> density?)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(birads,birads5 -> birads3)^(margin,margin1 -> margin1)^(density,density2 -> density?) ==> (shape,shape1 -> shape2)     1 [Support: 3.0, Confidence: 100.0%]
+(birads,birads5 -> birads3)^(margin,margin1 -> margin1)^(density,density2 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(birads,birads5 -> birads4)^(age,age60 -> age60)^(margin,margin? -> margin1) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(birads,birads5 -> birads4)^(age,age60 -> age60)^(margin,margin? -> margin1)^(severity, -> severity0) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(birads,birads5 -> birads4)^(age,age60 -> age60)^(margin,margin? -> margin1)^(severity,severity0 -> severity0) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence: 100.0%]
+(density,density4 -> density?)^(birads,birads3 -> birads3)^(margin, -> margin1) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(density,density4 -> density?)^(birads,birads3 -> birads3)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads4) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads4)^(margin, -> margin1) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads4)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads4)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence:
+100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads5) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(birads,birads2 -> birads5)^(margin, -> margin?) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4)^(severity, -> severity0) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Conf
+idence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(margin,margin1 -> margin?)^(birads,birads2 -> birads5) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads, -> birads4) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Conf
+idence: 100.0%]
+(density,density? -> density?)^(age,age59 -> age59)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads,birads2 -> birads4) ==> (shape,shape1 -> shape2)      1 [Support: 2
+.0, Confidence: 100.0%]
+(density,density? -> density?)^(birads,birads2 -> birads3)^(margin, -> margin1) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(birads,birads2 -> birads3)^(severity, -> severity0)^(margin, -> margin1) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(margin,margin1 -> margin1)^(birads,birads2 -> birads3) ==> (shape,shape1 -> shape2)     1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(margin,margin1 -> margin1)^(birads,birads2 -> birads3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(margin,margin? -> margin1)^(birads,birads3 -> birads3) ==> (shape,shape1 -> shape2)     1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(margin,margin? -> margin1)^(birads,birads3 -> birads3)^(severity, -> severity0) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(margin,margin? -> margin1)^(severity,severity0 -> severity0)^(birads,birads3 -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(severity,severity0 -> severity0)^(birads,birads2 -> birads3)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(birads,birads2 -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads, -> birads3) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads,birads2 -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(density,density? -> density?)^(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads,birads4 -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(age,age42 -> age42)^(birads,birads4 -> birads4)^(density,density2 -> density3) ==> (shape,shape1 -> shape2)        1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(age,age42 -> age42)^(density,density2 -> density3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(age,age42 -> age42)^(density,density2 -> density3)^(severity, -> severity1) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(age,age50 -> age50)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(age,age50 -> age50)^(density,density3 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(density,density4 -> density?)^(birads, -> birads3) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin1 -> margin1)^(density,density4 -> density?)^(severity, -> severity0)^(birads, -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin5 -> margin1)^(birads,birads4 -> birads3)^(density,density2 -> density?) ==> (shape,shape1 -> shape2)     1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin5 -> margin1)^(birads,birads4 -> birads3)^(density,density2 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin5 -> margin1)^(severity,severity0 -> severity0)^(birads,birads4 -> birads3)^(density,density2 -> density?) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin5 -> margin1)^(severity,severity0 -> severity0)^(density,density2 -> density?)^(birads, -> birads3) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(age,age42 -> age42)^(density,density3 -> density3)^(birads, -> birads4) ==> (shape,shape1 -> shape2)       1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(age,age42 -> age42)^(density,density3 -> density3)^(severity, -> severity1) ==> (shape,shape1 -> shape2)   1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(age,age42 -> age42)^(severity,severity0 -> severity1)^(density,density3 -> density3) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(birads,birads2 -> birads3)^(density,density1 -> density?) ==> (shape,shape1 -> shape2)     1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(birads,birads2 -> birads3)^(density,density1 -> density?)^(severity, -> severity0) ==> (shape,shape1 -> shape2)    1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(severity,severity0 -> severity0)^(birads,birads2 -> birads3)^(density,density1 -> density?) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin? -> margin1)^(severity,severity0 -> severity0)^(density,density1 -> density?)^(birads, -> birads3) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(margin,margin? -> margin3)^(age,age36 -> age36)^(severity,severity0 -> severity0) ==> (shape,shape1 -> shape2) 1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin? -> margin3)^(age,age36 -> age36)^(severity,severity0 -> severity0)^(birads, -> birads4) ==> (shape,shape1 -> shape2)    1 [Support: 2.0, Confidence: 100.0%]
+(margin,margin? -> margin3)^(age,age36 -> age36)^(severity,severity0 -> severity0)^(birads, -> birads4)^(density, -> density3) ==> (shape,shape1 -> shape2)     1 [Support: 2.0, Confidence:
+100.0%]
+(margin,margin? -> margin3)^(age,age36 -> age36)^(severity,severity0 -> severity0)^(density, -> density3) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(age,age24 -> age24)^(density,density3 -> density2) ==> (shape,shape1 -> shape2)      1 [Support: 2.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(age,age50 -> age50)^(margin,margin1 -> margin1)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(birads,birads2 -> birads3)^(density,density1 -> density?)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(density,density4 -> density?)^(birads,birads3 -> birads3)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density4 -> density?)^(birads, -> birads3) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity0 -> severity0)^(margin,margin1 -> margin1)^(density,density4 -> density?)^(birads,birads3 -> birads3) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity0 -> severity1)^(age,age42 -> age42)^(density,density2 -> density3)^(margin, -> margin1) ==> (shape,shape1 -> shape2) 1 [Support: 2.0, Confidence: 100.0%]
+(severity,severity0 -> severity1)^(age,age42 -> age42)^(margin,margin1 -> margin1)^(density,density2 -> density3) ==> (shape,shape1 -> shape2)  1 [Support: 2.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(birads,birads2 -> birads3)^(density, -> density?)^(margin, -> margin1) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(birads,birads5 -> birads3)^(margin,margin1 -> margin1)^(density,density2 -> density?) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(birads,birads5 -> birads3)^(margin,margin? -> margin1)^(density,density3 -> density?) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(density,density? -> density?)^(birads,birads5 -> birads3)^(margin,margin5 -> margin1) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(birads,birads2 -> birads3)^(density, -> density?) ==> (shape,shape1 -> shape2)   1 [Support: 3.0, Confidence: 100.0%]
+(severity,severity1 -> severity0)^(margin,margin1 -> margin1)^(density,density2 -> density?)^(birads, -> birads3) ==> (shape,shape1 -> shape2)  1 [Support: 3.0, Confidence: 100.0%]
